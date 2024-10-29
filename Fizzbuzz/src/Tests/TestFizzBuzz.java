@@ -18,21 +18,15 @@ public class TestFizzBuzz {
     @Test
     public static void testFizz() {
         FizzBuzz test2 = new FizzBuzz();
-<<<<<<< HEAD
         String three = test1.playFizzBuzz(3)[2];
         assertAll(() -> assertEquals(three,"Fizz"));
-=======
->>>>>>> origin/Tests
     }
 
     @Test
     public static void testBuzz() {
         FizzBuzz test3 = new FizzBuzz();
-<<<<<<< HEAD
         String five = test1.playFizzBuzz(5)[4];
         assertAll(() -> assertEquals(five,"Buzz"));
-=======
->>>>>>> origin/Tests
     }
 
     @Test

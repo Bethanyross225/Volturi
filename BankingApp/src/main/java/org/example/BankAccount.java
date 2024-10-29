@@ -33,8 +33,9 @@ public class BankAccount {
         this.setBalance(balance+amount);
     }
 
-    public void Withdraw(float amount){
+    public boolean Withdraw(float amount){
         this.setBalance(balance-amount);
+        return true;
     }
 
     public BankAccount(float balance, float minimumBalance, String accountHolderName) {
@@ -42,4 +43,5 @@ public class BankAccount {
         this.minimumBalance = minimumBalance;
         this.accountHolderName = accountHolderName;
     }
+
 }
